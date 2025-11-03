@@ -5,12 +5,12 @@ namespace Tyuiu.PankovaAA.Sprint4.Task0.V29.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalc()
+        public void ValidGetSumOddArrEl()
         {
             DataService ds = new DataService();
-            int[] numsArray = { 4, 0, 3, 0, 10 };
-            int res = ds.GetSum(numsArray);
-            int wait = 17;
+            int[] numsArray = { 7, 4, 3, 2, 1, 5, 9, 8, 7, 4 };
+            int res = ds.GetSumOddArrEl(numsArray);
+            int wait = 32;
             Assert.AreEqual(wait, res);
         }
     }

@@ -1,16 +1,21 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint4;
+﻿using tyuiu.cources.programming.interfaces;
+using tyuiu.cources.programming.interfaces.Sprint4;
 namespace Tyuiu.PankovaAA.Sprint4.Task0.V29.Lib
 {
-    public class DataService
+    public class DataService : ISprint4Task0V29
     {
-        public int GetSum(int[] array)
+        public int GetSumOddArrEl(int[] array)
         {
             int sum = 0;
             for (int i = 0; i < array.Length; i++)
             {
-                sum += array[i];
+                if (array[i] % 2 != 0)
+                {
+                    sum += array[i];
+                }
             }
             return sum;
+
         }
     }
 }

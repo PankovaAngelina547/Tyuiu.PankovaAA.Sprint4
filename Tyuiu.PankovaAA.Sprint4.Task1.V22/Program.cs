@@ -1,6 +1,5 @@
-﻿using System;
-using Tyuiu.PankovaAA.Sprint4.Task0.V29.Lib;
-namespace Tyuiu.PankovaAA.Sprint4.Task0.V29
+﻿using Tyuiu.PankovaAA.Sprint4.Task1.V22.Lib;
+namespace Tyuiu.PankovaAA.Sprint4.Task1.V22
 {
     class Program
     {
@@ -10,22 +9,21 @@ namespace Tyuiu.PankovaAA.Sprint4.Task0.V29
             Console.Title = "Спринт #4 |Выполнила: Панькова А.А.| ПИНб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*  Спринт #4                                                              *");
-            Console.WriteLine("*  Тема: одномерные массивы(статический ввод)                             *");
-            Console.WriteLine("*  Задание #00                                                            *");
-            Console.WriteLine("*  Вариант #29                                                            *");
+            Console.WriteLine("*  Тема: одномерные массивы(ввод с клавиатуры)                            *");
+            Console.WriteLine("*  Задание #01                                                            *");
+            Console.WriteLine("*  Вариант #22                                                            *");
             Console.WriteLine("*  Выполнила: Панькова Ангелина Алексеевна    |ПИНб-25-1|                 *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Дан одномерный целочисленный массив на 10 элементов заполненный         *");
-            Console.WriteLine("* статическими значениями в диапазоне от 0 до 9 подсчитать сумму нечетных *");
-            Console.WriteLine("* элементов массива.  {7 ,4 ,3 ,2 ,1 ,5 ,9 ,8 ,7 ,4}                      *");
+            Console.WriteLine("* Дан одномерный целочисленный массив на 12 элементов заполненный         *");
+            Console.WriteLine("* значениями с клавиатуры в диапазоне от 2 до 9 подсчитать произведение   *");
+            Console.WriteLine("* нечетных элементов массива.                                             *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*  ИСХОДНЫЕ ДАННЫЕ:                                                       *");
 
-            int[] numsArray = { 7, 4, 3, 2, 1, 5, 9, 8, 7, 4 };
-            int sum = ds.GetSumOddArrEl(numsArray);
-
+            int[] array = { 8, 5, 4, 4, 3, 9, 9, 3, 4, 4, 9 };
+            int product = ds.Calculate(array);
 
 
 
@@ -33,8 +31,9 @@ namespace Tyuiu.PankovaAA.Sprint4.Task0.V29
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*  РЕЗУЛЬТАТ:                                                             *");
-            
-            Console.WriteLine("Сумма нечетных элементов = " + sum);
+
+            Console.WriteLine("Нечетные элементы: 5 * 3 * 9 * 9 * 3 * 9 = " + product);
+
             Console.ReadKey();
 
 
