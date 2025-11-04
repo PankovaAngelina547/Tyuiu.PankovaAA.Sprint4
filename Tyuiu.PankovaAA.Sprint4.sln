@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PankovaAA.Sprint4.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PankovaAA.Sprint4.Task0.V29.Test", "Tyuiu.PankovaAA.Sprint4.Task0.V29.Test\Tyuiu.PankovaAA.Sprint4.Task0.V29.Test.csproj", "{AECFD6BB-BD18-4529-ADC4-A79BFACC4C01}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{D69BC1FF-9351-44BF-AAC0-E00D5E4E839C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 1", "Task 1", "{D69BC1FF-9351-44BF-AAC0-E00D5E4E839C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PankovaAA.Sprint4.Task1.V22", "Tyuiu.PankovaAA.Sprint4.Task1.V22\Tyuiu.PankovaAA.Sprint4.Task1.V22.csproj", "{26F23FBA-C4F3-4436-97A2-1A873331FCD9}"
 EndProject
