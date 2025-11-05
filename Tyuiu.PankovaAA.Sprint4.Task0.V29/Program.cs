@@ -1,5 +1,4 @@
-﻿using System;
-using Tyuiu.PankovaAA.Sprint4.Task0.V29.Lib;
+﻿using Tyuiu.PankovaAA.Sprint4.Task0.V29.Lib;
 namespace Tyuiu.PankovaAA.Sprint4.Task0.V29
 {
     class Program
@@ -33,7 +32,7 @@ namespace Tyuiu.PankovaAA.Sprint4.Task0.V29
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*  РЕЗУЛЬТАТ:                                                             *");
-            
+
             Console.WriteLine("Сумма нечетных элементов = " + sum);
             Console.ReadKey();
 
