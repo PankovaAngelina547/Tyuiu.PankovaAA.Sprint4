@@ -15,11 +15,11 @@ namespace Tyuiu.PankovaAA.Sprint4.Task4.V20.Lib
                 {
                     if (matrix[i, j] % 2 == 0)
                     {
-                        result[i, j] = 1; 
+                        result[i, j] = 1;
                     }
                     else
                     {
-                        result[i, j] = matrix[i, j]; 
+                        result[i, j] = matrix[i, j];
                     }
                 }
             }

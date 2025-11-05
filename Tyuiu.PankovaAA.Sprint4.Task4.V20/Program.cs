@@ -52,7 +52,7 @@ namespace Tyuiu.PankovaAA.Sprint4.Task4.V20
                     matrix[i, j] = value;
 
 
-                   
+
 
 
 
