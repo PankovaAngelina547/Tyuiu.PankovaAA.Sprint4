@@ -16,8 +16,10 @@ namespace Tyuiu.PankovaAA.Sprint4.Task3.V11.Test
                 { 6, 6, 7, 6, 4 }
             };
             int res = ds.Calculate(array);
-            int wait = 10; 
+            int wait = 10;
             Assert.AreEqual(wait, res);
         }
     }
 }
+
+
